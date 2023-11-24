@@ -5,7 +5,7 @@ import requests
 
 # Function to execute cube testing script
 def job_function():
-    subprocess.run(["python", "./services/cube_tester.py"], check=True)
+    subprocess.run(["python3", "./services/cube_tester.py"], check=True)
 
 # Initialize scheduler in session state
 if 'scheduler' not in st.session_state:
